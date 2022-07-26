@@ -12,10 +12,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App/>}>
-        <Route path="new" element={<New/>}/>
-        <Route path="view" element={<View/>}/>
-      </Route>
+      <Route path="/" element={<App/>}/>
+      <Route path="new" element={<New/>}/>
+      <Route path="view" element={<View/>}/>      
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

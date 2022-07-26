@@ -1,5 +1,5 @@
 const View = ()=> {
-    return <>Create a new competition!</>
+    return <>View an existing competition!</>
 }
 
 export default View;
